@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tejas Martin | Portfolio & Achievements</title>
+  <meta name="description" content="Personal portfolio and achievements showcase of Tejas Martin. A curious mind, a problem solver, and an aspiring software engineer — constantly learning, exploring, and building." />
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== HEADER / NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-mark">TM</span>
+        <span class="logo-text">Tejas<span class="accent-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#timeline" class="nav-link">Journey</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="icon-btn" title="Toggle Dark / Light Theme" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2"></path>
+            <path d="M12 20v2"></path>
+            <path d="m4.93 4.93 1.41 1.41"></path>
+            <path d="m17.66 17.66 1.41 1.41"></path>
+            <path d="M2 12h2"></path>
+            <path d="M20 12h2"></path>
+            <path d="m6.34 17.66-1.41 1.41"></path>
+            <path d="m19.07 4.93-1.41 1.41"></path>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Direct Text Me Button in Header -->
+        <button class="btn btn-primary nav-cta-btn open-text-modal" aria-label="Text Me">
+          <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>Text Me</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="icon-btn mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          <svg class="burger-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+          <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <!-- Availability Badge -->
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span id="heroStatusText">Available for new projects & roles</span>
+        </div>
+
+        <!-- Hero Title & Bio -->
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text" id="heroName">Tejas Martin</span>
+        </h1>
+        <h2 class="hero-headline" id="heroHeadline">
+          Computer Science Student @ Newton School of Technology
+        </h2>
+        <div class="hero-tags">
+          <span class="hero-tag">🎂 19 Years Old</span>
+          <span class="hero-tag">📍 Hyderabad, India</span>
+          <span class="hero-tag">🎓 Newton School of Technology</span>
+        </div>
+        <p class="hero-bio" id="heroBio">
+          A curious mind, a problem solver, and an aspiring software engineer — constantly learning, exploring, and building.
+        </p>
+
+        <!-- Hero Actions -->
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-lg open-text-modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <span>Text Me Directly</span>
+          </button>
+          
+          <a href="#achievements" class="btn btn-secondary btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+              <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+              <path d="M4 22h16"></path>
+              <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+              <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+              <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+            </svg>
+            <span>View Achievements</span>
+          </a>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="hero-socials" id="heroSocials">
+          <!-- Populated dynamically from profile-data.js -->
+        </div>
+      </div>
+
+      <!-- Hero Visual / Avatar Card -->
+      <div class="hero-visual">
+        <div class="avatar-card">
+          <div class="avatar-ring">
+            <img src="assets/avatar.svg" alt="Tejas Martin Avatar" id="heroAvatar" class="avatar-img" />
+          </div>
+          <div class="avatar-floating-badge badge-top">
+            <span class="badge-icon">♟️</span>
+            <span class="badge-text">National Chess Player</span>
+          </div>
+          <div class="avatar-floating-badge badge-bottom">
+            <span class="badge-icon">🚀</span>
+            <span class="badge-text">ICPC Regionalist</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Stats Grid -->
+    <div class="container">
+      <div class="stats-grid" id="statsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACHIEVEMENTS SECTION ==================== -->
+  <section class="section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hall of Fame</span>
+        <h2 class="section-title">Achievements &amp; Honors</h2>
+        <p class="section-subtitle">
+          Milestones, hackathon victories, certifications, and recognitions that mark my journey.
+        </p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="filters-container">
+        <div class="filter-tabs" id="achievementFilters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Competitions">Competitions</button>
+          <button class="filter-btn" data-filter="Chess & Strategy">Chess &amp; Strategy</button>
+          <button class="filter-btn" data-filter="Academics">Academics</button>
+        </div>
+      </div>
+
+      <!-- Achievements Cards Grid -->
+      <div class="achievements-grid" id="achievementsGrid">
+        <!-- Populated dynamically from profileData.achievements -->
+      </div>
+
+      <!-- Quick tip to add more achievements -->
+      <div class="add-note-card">
+        <div class="add-note-icon">💡</div>
+        <div class="add-note-content">
+          <h4>Want to add more achievements?</h4>
+          <p>You can easily add new certificates, competitions, or awards anytime by editing <code>profile-data.js</code>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ME SECTION ==================== -->
+  <section class="section alt-bg" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">Everything About Me</h2>
+        <p class="section-subtitle">A closer look at my background, passion, and what I bring to the table.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-column">
+          <div id="aboutParagraphs">
+            <!-- Populated from profileData.about.paragraphs -->
+          </div>
+
+          <!-- Personal Philosophy Quote Box -->
+          <div class="philosophy-card" id="aboutPhilosophyCard">
+            <!-- Populated from profileData.about.philosophy -->
+          </div>
+
+          <!-- Personal Interests -->
+          <div class="interests-card" id="aboutInterestsCard">
+            <!-- Populated from profileData.about.interests -->
+          </div>
+        </div>
+
+        <div class="about-highlights-column">
+          <div id="aboutHighlights">
+            <!-- Populated from profileData.about.highlights -->
+          </div>
+
+          <!-- Goals Card -->
+          <div class="goals-card" id="aboutGoalsCard">
+            <!-- Populated from profileData.about.goals -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS SECTION ==================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Prowess</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <p class="section-subtitle">The tools, languages, and frameworks I use to build scalable products.</p>
+      </div>
+
+      <div class="skills-grid" id="skillsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURED PROJECTS SECTION ==================== -->
+  <section class="section alt-bg" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">A curated selection of real-world projects and applications I've built.</p>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== JOURNEY / TIMELINE SECTION ==================== -->
+  <section class="section" id="timeline">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">My Journey &amp; Experience</h2>
+        <p class="section-subtitle">The path I've walked through education, roles, and major career stepping stones.</p>
+      </div>
+
+      <div class="timeline-container" id="timelineContainer">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT & TEXT ME SECTION ==================== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Text Me or Drop a Message</h2>
+        <p class="section-subtitle">
+          Have an opportunity, an idea, or just want to say hi? Pick your favorite way to text me below!
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Left: Quick Direct Text Channels -->
+        <div class="contact-channels">
+          <h3 class="channels-title">Instant Text Channels</h3>
+          <p class="channels-sub">Reach me right on my phone in just one click:</p>
+
+          <!-- WhatsApp Card -->
+          <a href="#" id="whatsappDirectLink" target="_blank" rel="noopener noreferrer" class="channel-card whatsapp-card">
+            <div class="channel-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"></path>
+                <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"></path>
+              </svg>
+            </div>
+            <div class="channel-details">
+              <h4>Chat on WhatsApp</h4>
+              <p>Instant chat &bull; Web &amp; Mobile friendly</p>
+            </div>
+            <span class="channel-action">Open &rarr;</span>
+          </a>
+
+          <!-- SMS Card -->
+          <a href="#" id="smsDirectLink" class="channel-card sms-card">
+            <div class="channel-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                <path d="M12 18h.01"></path>
+              </svg>
+            </div>
+            <div class="channel-details">
+              <h4>Direct SMS / iMessage</h4>
+              <p>Opens your phone's native text app</p>
+            </div>
+            <span class="channel-action">Text &rarr;</span>
+          </a>
+
+          <!-- Email Card -->
+          <a href="#" id="emailDirectLink" class="channel-card email-card">
+            <div class="channel-icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="channel-details">
+              <h4>Send an Email</h4>
+              <p id="emailDisplay">tejasmartin@example.com</p>
+            </div>
+            <span class="channel-action">Compose &rarr;</span>
+          </a>
+
+          <!-- Phone number display with Copy button -->
+          <div class="copy-number-box">
+            <div class="number-info">
+              <span class="number-label">Direct Phone:</span>
+              <span class="number-value" id="phoneDisplay">+91 98765 43210</span>
+            </div>
+            <button class="btn btn-sm btn-outline" id="copyPhoneBtn" title="Copy Phone Number">
+              <span id="copyBtnText">Copy</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: On-Site Interactive Text/Message Form -->
+        <div class="contact-form-container">
+          <div class="form-card">
+            <h3 class="form-title">Send a Quick Message</h3>
+            <p class="form-sub">Type your note below and choose how you'd like to send it:</p>
+
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" name="name" required placeholder="e.g. Alex Johnson" />
+              </div>
+
+              <div class="form-group">
+                <label for="senderContact">Your Email or Phone (Optional)</label>
+                <input type="text" id="senderContact" name="contact" placeholder="e.g. alex@example.com or +1 234 567" />
+              </div>
+
+              <div class="form-group">
+                <label for="messageText">Your Message</label>
+                <textarea id="messageText" name="message" rows="4" required placeholder="Hi Tejas, I saw your achievements and wanted to discuss..."></textarea>
+              </div>
+
+              <!-- Quick starter templates -->
+              <div class="quick-prompts">
+                <span class="quick-prompt-label">Quick templates:</span>
+                <div class="prompt-chips">
+                  <button type="button" class="prompt-chip" data-msg="Hi Tejas, I loved your hackathon achievements and would like to collaborate!">🚀 Collaborate</button>
+                  <button type="button" class="prompt-chip" data-msg="Hi Tejas, are you available for a freelance/job opportunity?">💼 Opportunity</button>
+                  <button type="button" class="prompt-chip" data-msg="Hi Tejas, great portfolio! Wanted to connect and say hello.">👋 Just saying Hi</button>
+                </div>
+              </div>
+
+              <div class="form-actions">
+                <button type="button" id="sendViaWhatsAppBtn" class="btn btn-whatsapp">
+                  <span>Send via WhatsApp</span>
+                </button>
+                <button type="button" id="sendViaSmsBtn" class="btn btn-sms">
+                  <span>Send via SMS</span>
+                </button>
+                <button type="submit" id="submitFormBtn" class="btn btn-primary">
+                  <span>Send via Email</span>
+                </button>
+              </div>
+            </form>
+
+            <div id="formSuccessMessage" class="form-alert success-alert" style="display: none;">
+              ✨ Message drafted! Opening your client...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <p>&copy; <span id="currentYear">2026</span> <strong id="footerName">Tejas Martin</strong>. Built with passion &amp; precision.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Back to top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING "TEXT ME" BUTTON & POPUP MODAL ==================== -->
+  <!-- Floating Button -->
+  <div class="floating-text-widget" id="floatingTextWidget">
+    <button class="floating-btn open-text-modal" aria-label="Text Me Now" title="Text Tejas">
+      <div class="floating-icon-wrap">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      </div>
+      <span class="floating-label">Text Me</span>
+      <span class="ping-badge"></span>
+    </button>
+  </div>
+
+  <!-- Quick Text Modal / Drawer -->
+  <div class="modal-overlay" id="textModalOverlay">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">💬</div>
+          <div>
+            <h3 class="modal-title">Text Tejas Martin</h3>
+            <p class="modal-subtitle">Pick how you want to reach out right now</p>
+          </div>
+        </div>
+        <button class="modal-close-btn" id="closeModalBtn" aria-label="Close text popup">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-input-group">
+          <label for="modalQuickMessage">Your message:</label>
+          <textarea id="modalQuickMessage" rows="3">Hi Tejas, I checked out your portfolio and would love to connect with you!</textarea>
+        </div>
+
+        <div class="modal-channels-list">
+          <!-- WhatsApp option -->
+          <button class="modal-channel-btn btn-whatsapp" id="modalWhatsAppBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"></path>
+              <path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"></path>
+            </svg>
+            <span>Send via WhatsApp</span>
+          </button>
+
+          <!-- SMS option -->
+          <button class="modal-channel-btn btn-sms" id="modalSmsBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+              <path d="M12 18h.01"></path>
+            </svg>
+            <span>Send Direct SMS / iMessage</span>
+          </button>
+
+          <!-- Email option -->
+          <button class="modal-channel-btn btn-email" id="modalEmailBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>Send via Email</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="profile-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

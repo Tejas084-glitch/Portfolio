@@ -1,0 +1,44 @@
+======================================================================
+TEJAS MARTIN - PORTFOLIO WEBSITE PROFILE & QUICK REFERENCE
+======================================================================
+
+Name: Tejas Martin
+Age: 19
+Institution: Newton School of Technology
+Degree: B.Tech in Computer Science & Engineering
+Foundation: Academic background in Physics, Chemistry, and Mathematics (PCM)
+
+TAGLINE:
+"A curious mind, a problem solver, and an aspiring software engineer — constantly learning, exploring, and building."
+
+ABOUT ME:
+Computer Science student at Newton School of Technology, passionate about
+technology, mathematics, logical thinking, and problem-solving. Curious
+by nature and enthusiastic about learning new concepts and exploring ideas.
+
+TECHNICAL SKILLS & INTERESTS:
+- Languages & Core: Python, Java, Programming Fundamentals, Data Structures & Algorithms (DSA), OOP
+- Problem-Solving: Mathematical challenges, logical reasoning, number-based problems, competitive programming
+- Development & Tools: Git, GitHub, Linux, Bash, CLI Development, VS Code
+- Future Exploration: Artificial Intelligence (AI), Machine Learning (ML), Game Development, Open Source
+
+ACHIEVEMENTS:
+- ICPC Regionalist (Competitive Programming)
+- National Chess Player (Strategic Foresight & Tournament Composure)
+- Strong STEM grounding in PCM (Academics)
+
+PERSONAL INTERESTS:
+Chess, mathematics, music, gaming, technology, fictional universes, storytelling, and creative exploration.
+
+GOALS:
+- Short-Term: Strengthen Python and Java, master DSA, build practical CLI tools, improve Linux & Git, explore AI/ML.
+- Long-Term: Explore advanced AI/ML, pursue game development, contribute to open source (GSoC), build impactful software products.
+
+PERSONAL PHILOSOPHY:
+"Continuous learning, curiosity, creativity, experimentation, understanding concepts deeply, and improving through challenges."
+
+CONTACT & "TEXT ME":
+- Phone / SMS: +91 62689 14414
+- WhatsApp: +91 62689 14414
+- Email: tjsmrtn084@gmail.com
+======================================================================
